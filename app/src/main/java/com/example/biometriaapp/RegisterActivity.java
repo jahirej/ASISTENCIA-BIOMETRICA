@@ -44,7 +44,7 @@ public class RegisterActivity extends AppCompatActivity {
         String userEmail = email.getText().toString().trim();
         String userPassword = password.getText().toString().trim();
 
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, "http://192.168.1.70/api_asistencia/register.php",
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, "http://192.168.3.32/api_asistencia/register.php",
                 response -> {
                     Toast.makeText(RegisterActivity.this, response, Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
