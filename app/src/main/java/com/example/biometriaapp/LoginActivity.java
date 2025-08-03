@@ -50,7 +50,7 @@ public class LoginActivity extends AppCompatActivity {
             return;
         }
 
-        StringRequest stringRequest = new StringRequest(Request.Method.POST, "http://192.168.3.32/api_asistencia/login.php",
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, "http://10.0.0.0/api_asistencia/login.php",
                 response -> {
                     try {
                         JSONObject jsonResponse = new JSONObject(response);
