@@ -1,0 +1,9 @@
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_text">#444444</color>
+    <color name="primary_dark">#0A1F44</color>
+    <color name="primary_accent">#2979FF</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="input_background">#F5F5F5</color>
+</resources>
